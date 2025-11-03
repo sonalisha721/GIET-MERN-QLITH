@@ -1,0 +1,45 @@
+/* Reset default margins and center content */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: "Times New Roman", serif;
+}
+
+/* Outer orange frame */
+.frame {
+  background-color: #f5b942; /* orange border color */
+  padding: 40px;
+  display: inline-block;
+}
+
+/* Inner white area */
+.content {
+  background-color: white;
+  text-align: center;
+  padding: 60px 100px;
+  border: 2px solid white;
+}
+
+/* Title */
+.content h1 {
+  background-color: black;
+  color: #f5b7b1;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Subtitle */
+.content p {
+  background-color: black;
+  color: #f5b7b1;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
